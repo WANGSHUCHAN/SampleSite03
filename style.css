@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -15,7 +15,7 @@
 header {
    position:relative;
    height: 8rem;
-   background: #333;
+   background: #8FBC8F;
    box-shadow: 0 4px 0.3125rem rgba(0,0,0,.3);
  }
 
@@ -28,34 +28,33 @@ header {
   }
 
 
+
 main{
   display: flex;
   flex-direction: row;
 }
+nav {flex: 1;
+padding: 2rem;
+  background: #DCC2FF;
+}
 
-  nav {
-    flex: 1;
-    padding: 3rem;
-    background: #AAA;
+  nav ul{
+    display: flex;
+    flex-direction: column;
   }
 
-    nav ul{
-      display: flex;
-      flex-direction: column;
-    }
+  nav ul li{
+    margin-bottom: 2rem;
+  }
 
-    nav ul li{
-      margin-bottom: 1rem;
-    }
-
-    nav ul li a {
-      color: white;
-    }
+  nav ul li a {
+    color: white;
+  }
 
   section{
     flex: 3;
     padding: 3rem;
-    background: #EEE;
+    background: #FAEBD7;
   }
 
     article{
@@ -68,12 +67,12 @@ main{
   aside{
     flex: 1;
     padding: 3rem;
-    background: #DDD;
+    background: #DCC2FF;
   }
 
 footer {
   padding: 2rem 3rem;
   text-align: center;
-  background: #333;
+  background: #8FBC8F;
   color: white;
 }
